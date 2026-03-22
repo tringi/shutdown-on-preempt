@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Installer/Installer.vcxproj" Id="f3bb7831-d9f2-4b61-931b-c592dc1b1c97" />
+  <Project Path="ShutdownOnPreempt.vcxproj" Id="9f1f04ac-6fcd-4444-a61b-7d6b49b2a8a4" />
+</Solution>

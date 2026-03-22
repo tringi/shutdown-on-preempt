@@ -1,0 +1,7 @@
+#include <Windows.h>
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
+{
+    0x0001 "Shutdown On Preempt"
+}
