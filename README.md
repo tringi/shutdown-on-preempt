@@ -8,11 +8,19 @@ The shutdown is initiated immediately with 10 second countdown.
 Implemented as a simple lightweight native service process to replace scripts,
 which are CPU and resource heavier; significantly in comparison.
 
-## Find prebuilt EXEs here
+## Download prebuilt EXEs
 
-* [x86-64](https://github.com/tringi/shutdown-on-preempt/tree/master/Builds/x64/Release)
-* [x86-32](https://github.com/tringi/shutdown-on-preempt/tree/master/Builds/Win32/Release)
-* [AArch64](https://github.com/tringi/shutdown-on-preempt/tree/master/Builds/ARM64/Release)
+* **x86-64**:
+ [ShutdownOnPreempt.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/x64/Release/ShutdownOnPreempt.exe) &
+ [Installer.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/x64/Release/Installer.exe)
+
+* **x86-32**:
+ [ShutdownOnPreempt.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/Win32/Release/ShutdownOnPreempt.exe) &
+ [Installer.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/Win32/Release/Installer.exe)
+
+* **AArch64**:
+ [ShutdownOnPreempt.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/ARM64/Release/ShutdownOnPreempt.exe) &
+ [Installer.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/ARM64/Release/Installer.exe)
 
 ## Requirements
 
