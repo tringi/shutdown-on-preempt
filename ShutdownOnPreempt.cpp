@@ -162,10 +162,7 @@ void WINAPI HttpCallback (HINTERNET request, DWORD_PTR context, DWORD code, LPVO
 
         // TODO: Use proper JSON parser
 
-        if (std::strstr (buffer, "\"EventType\":\"Preempt\"") != nullptr
-         && std::strstr (buffer, "\"EventStatus\":\"Scheduled\"") != nullptr
-         && std::strstr (buffer, "\"ResourceType\":\"VirtualMachine\"") != nullptr) {
-
+        if (std::strstr (buffer, "\"EventType\":\"Preempt\"") != nullptr) {
             if (preempt) {
                 SetEvent (preempt);
             }

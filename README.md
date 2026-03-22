@@ -13,11 +13,9 @@ which are CPU and resource heavier; significantly in comparison.
 * **x86-64**:
  [ShutdownOnPreempt.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/x64/Release/ShutdownOnPreempt.exe) &
  [Installer.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/x64/Release/Installer.exe)
-
 * **x86-32**:
  [ShutdownOnPreempt.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/Win32/Release/ShutdownOnPreempt.exe) &
  [Installer.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/Win32/Release/Installer.exe)
-
 * **AArch64**:
  [ShutdownOnPreempt.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/ARM64/Release/ShutdownOnPreempt.exe) &
  [Installer.exe](https://github.com/tringi/shutdown-on-preempt/raw/refs/heads/master/Builds/ARM64/Release/Installer.exe)
