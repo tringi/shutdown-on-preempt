@@ -8,6 +8,12 @@ The shutdown is initiated immediately with 10 second countdown.
 Implemented as a simple lightweight native service process to replace scripts,
 which are CPU and resource heavier; significantly in comparison.
 
+## Find prebuilt EXEs here
+
+* [x86-64](https://github.com/tringi/shutdown-on-preempt/tree/master/Builds/x64/Release)
+* [x86-32](https://github.com/tringi/shutdown-on-preempt/tree/master/Builds/Win32/Release)
+* [AArch64](https://github.com/tringi/shutdown-on-preempt/tree/master/Builds/ARM64/Release)
+
 ## Requirements
 
 * Runs on all supported Windows and Windows Server operating systems
