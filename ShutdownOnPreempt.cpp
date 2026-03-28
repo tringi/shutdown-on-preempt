@@ -98,11 +98,8 @@ void WINAPI ServiceMain (DWORD argc, LPWSTR * argw) {
 
                 case WAIT_FAILED:
                     goto failed;
-
                 case WAIT_OBJECT_0:
-                    status.dwCurrentState = SERVICE_STOPPED;
-                    SetServiceStatus (handle, &status);
-                    return;
+                    goto finished;
             }
 
             if (WaitForSingleObject (run, 0) == WAIT_TIMEOUT) {
@@ -114,6 +111,7 @@ void WINAPI ServiceMain (DWORD argc, LPWSTR * argw) {
 
 failed:
     status.dwWin32ExitCode = GetLastError ();
+finished:
     status.dwCurrentState = SERVICE_STOPPED;
     SetServiceStatus (handle, &status);
 }
@@ -216,13 +214,9 @@ DWORD WINAPI ServiceCtrlHandler (DWORD code, DWORD event, LPVOID data, LPVOID co
 }
 
 void Main () {
-    SetErrorMode (0x8007);
-    RegDisablePredefinedCacheEx ();
-
     if (!version.initialize (NULL))
         ExitProcess (ERROR_FILE_CORRUPT);
 
-    SetLastError (0);
     if (StartServiceCtrlDispatcher (services)) {
         ExitProcess (status.dwWin32ExitCode);
     } else {

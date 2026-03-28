@@ -22,9 +22,10 @@ which are CPU and resource heavier; significantly in comparison.
 
 ## Requirements
 
-* Runs on all supported Windows and Windows Server operating systems
-* Uses about 1.5 MB of RAM and barely CPU cycles
-* Polls Azure endpoint every second
+* Windows XP or later, Windows Server 2003 or later  
+  *runs on basically all supported Windows and Windows Server operating systems*
+* Uses up to 5 MB of RAM, but usually less than half of that
+* Polls Azure endpoint every 1 second
 
 ## Installation
 

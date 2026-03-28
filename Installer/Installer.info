@@ -9,9 +9,9 @@
 	internalname		= Installer
 
 	major = 1
-	minor = 0
+	minor = 1
 	patch = 0
-	build = 110
+	build = 158
 
 [versioninfo]
 	filename	= %dir%\%internalname%-vi.rc
@@ -31,7 +31,6 @@
 	FileDescription	= %filedescription%
 	ProductName	= %product%
 	ProductVersion	= %major%.%minor%.%patch%
-	URL		= https://www.trimcore.cz
 
 [versioninfo:ff]
 	debug		= %debug%

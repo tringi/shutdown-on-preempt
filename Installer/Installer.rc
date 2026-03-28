@@ -6,14 +6,22 @@ LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
     0x0001 "Shutdown On Preempt automatically initiates Operating Systen shutdown on Azure Spot Eviction of the VM, preventing data loss or other issues. Must be installed on Azure Virtual Machine."
     0x0002 "Source code: <A HREF=""src"">https://github.com/tringi/shutdown-on-preempt</A>"
     0x0003 "Status: Not installed"
-    0x0004 "Install and start service\nCopy ShutdownOnPreempt.exe to C:\\Windows\\System32"
+    0x0004 L"Install and start service\nCopy ShutdownOnPreempt.exe to C:\\Windows\\System32"
     0x0005 "Status: Installed"
-    0x0006 "Stop and uninstall\nDeletes ShutdownOnPreempt.exe from C:\\Windows\\System32"
-    0x0007 "Open Services MMC\nservices.msc"
+    0x0006 L"Stop and uninstall\nDeletes ShutdownOnPreempt.exe from C:\\Windows\\System32"
+    0x0007 L"Open Services MMC\nservices.msc"
     0x0008 "Refresh"
     0x0009 "Automatically initiates shutdown on Azure Spot Eviction of the VM" // service description
     0x000A "Azure Shutdown On Preempt\1Automatic VM Shutdown due to Azure Spot Eviction\1"
     0x000B "Done!"
     0x000C "The service was successfully installed."
     0x000D "The service was successfully removed from the system."
+    0x000E "Error 0x%08X"
+    0x000F "https://github.com/tringi/shutdown-on-preempt"
+
+    // XP and Server 2003:
+
+    0x0010 L"%s\n\n%s\n\n\x2022 Continue \x2013 %s\n\x2022 Try Again \x2013 Refresh install status\n\x2022 Help \x2013 Opens %s\n\x2022 Cancel \x2013 Closes the installer"
+    0x0011 L"Install and Start service // copies EXE to System32"
+    0x0012 L"Stop and Uninstall // deletes EXE from System32"
 }
